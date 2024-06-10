@@ -1,2 +1,2 @@
-# tsukuba
-#　Done is better than perfect.
+# tsukuba 
+Done is better than perfect.
