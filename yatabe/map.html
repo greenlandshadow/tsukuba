@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c6aa64fc73450ce5ff9d1d534e468087 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c6aa64fc73450ce5ff9d1d534e468087" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c6aa64fc73450ce5ff9d1d534e468087 = L.map(
+                "map_c6aa64fc73450ce5ff9d1d534e468087",
+                {
+                    center: [36.03203080856742, 140.07215010351732],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8ccce084440c7ff6e865cf366f8137c0 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c6aa64fc73450ce5ff9d1d534e468087);
+        
+    
+            var circle_marker_0bdd0181b73e8ff2b60720c4945190c0 = L.circleMarker(
+                [36.03203080856742, 140.07215010351732],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_c6aa64fc73450ce5ff9d1d534e468087);
+        
+    
+            var feature_group_2334679463f387450d279daa84bf2329 = L.featureGroup(
+                {}
+            ).addTo(map_c6aa64fc73450ce5ff9d1d534e468087);
+        
+    
+            var marker_436047bd1813921fb0c6dbb349b79f6f = L.marker(
+                [36.03027946074198, 140.05601216699895],
+                {}
+            ).addTo(feature_group_2334679463f387450d279daa84bf2329);
+        
+    
+            var icon_b3eaf6e900d6de04afa2551abaa9e6af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_436047bd1813921fb0c6dbb349b79f6f.setIcon(icon_b3eaf6e900d6de04afa2551abaa9e6af);
+        
+    
+            marker_436047bd1813921fb0c6dbb349b79f6f.bindTooltip(
+                `<div>
+                     みどりの駅
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_124413c5541af53fc49ab38e2046bbf5 = L.featureGroup(
+                {}
+            ).addTo(map_c6aa64fc73450ce5ff9d1d534e468087);
+        
+    
+            var marker_76ae118c4acf234a5d3a9e2b079feab8 = L.marker(
+                [36.036858075251054, 140.07458218903398],
+                {}
+            ).addTo(feature_group_124413c5541af53fc49ab38e2046bbf5);
+        
+    
+            var icon_d825474ccd84d02804b3a3284f8108b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_76ae118c4acf234a5d3a9e2b079feab8.setIcon(icon_d825474ccd84d02804b3a3284f8108b7);
+        
+    
+        var popup_a6382e48c3ac30710a1e1f857365839d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e81f57e0c2c739dbc2700d598d88d1a8 = $(`<div id="html_e81f57e0c2c739dbc2700d598d88d1a8" style="width: 100.0%; height: 100.0%;"><img src="http://ibaraki-museums.jp/category/assets_c/2016/08/45-thumb-400xauto-47-thumb-400xauto-354.jpg" /></div>`)[0];
+                popup_a6382e48c3ac30710a1e1f857365839d.setContent(html_e81f57e0c2c739dbc2700d598d88d1a8);
+            
+        
+
+        marker_76ae118c4acf234a5d3a9e2b079feab8.bindPopup(popup_a6382e48c3ac30710a1e1f857365839d)
+        ;
+
+        
+    
+    
+            marker_76ae118c4acf234a5d3a9e2b079feab8.bindTooltip(
+                `<div>
+                     つくば市谷田部郷土資料館
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4b194d1bae3fa19dd2b49c061fced9fd = L.marker(
+                [36.03617789169835, 140.0750962484287],
+                {}
+            ).addTo(feature_group_124413c5541af53fc49ab38e2046bbf5);
+        
+    
+            var icon_b6b890a3431b199dd3c225d8eef787b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4b194d1bae3fa19dd2b49c061fced9fd.setIcon(icon_b6b890a3431b199dd3c225d8eef787b2);
+        
+    
+            marker_4b194d1bae3fa19dd2b49c061fced9fd.bindTooltip(
+                `<div>
+                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Tsukuba-City-Yatabe-Office.JPG/280px-Tsukuba-City-Yatabe-Office.JPG" />
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c6db648ec94364fa7d9df9f6b2c5dfbc = L.marker(
+                [36.03203979832665, 140.07338526998475],
+                {}
+            ).addTo(feature_group_124413c5541af53fc49ab38e2046bbf5);
+        
+    
+            var icon_48823d28d45625a1670bad2976ff4a16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_c6db648ec94364fa7d9df9f6b2c5dfbc.setIcon(icon_48823d28d45625a1670bad2976ff4a16);
+        
+    
+            marker_c6db648ec94364fa7d9df9f6b2c5dfbc.bindTooltip(
+                `<div>
+                     五角堂
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_acf2c1a57372f4771d805e9cd0ab31ae = L.marker(
+                [36.03390629942614, 140.07468160811865],
+                {}
+            ).addTo(feature_group_124413c5541af53fc49ab38e2046bbf5);
+        
+    
+            var icon_3bde5d790c0908b0874003238a6ef074 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_acf2c1a57372f4771d805e9cd0ab31ae.setIcon(icon_3bde5d790c0908b0874003238a6ef074);
+        
+    
+            marker_acf2c1a57372f4771d805e9cd0ab31ae.bindTooltip(
+                `<div>
+                     谷田部藩陣屋跡
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f28ace90c5d475c2cd1c8dc52a409728 = L.marker(
+                [36.03305708825067, 140.07619276174253],
+                {}
+            ).addTo(feature_group_124413c5541af53fc49ab38e2046bbf5);
+        
+    
+            var icon_21b4bb0922ce329cebd8d52830b57860 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_f28ace90c5d475c2cd1c8dc52a409728.setIcon(icon_21b4bb0922ce329cebd8d52830b57860);
+        
+    
+            marker_f28ace90c5d475c2cd1c8dc52a409728.bindTooltip(
+                `<div>
+                     八坂神社
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_ed86b519b7762900a3b336d5fe61d9c4 = L.featureGroup(
+                {}
+            ).addTo(map_c6aa64fc73450ce5ff9d1d534e468087);
+        
+    
+            var circle_marker_91100dc2864c02e17f76002aed51f0f1 = L.circleMarker(
+                [36.0324085025669, 140.06229023929833],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa500", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 90, "stroke": true, "weight": 3}
+            ).addTo(map_c6aa64fc73450ce5ff9d1d534e468087);
+        
+    
+            var circle_marker_bb304fcef4642b02ffa12d70f464df54 = L.circleMarker(
+                [36.03027946074198, 140.05601216699895],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7fff00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 120, "stroke": true, "weight": 3}
+            ).addTo(map_c6aa64fc73450ce5ff9d1d534e468087);
+        
+    
+            var layer_control_6ddd2aeffe4d23de4b778ff81692bbe7 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_8ccce084440c7ff6e865cf366f8137c0,
+                },
+                overlays :  {
+                    "1" : feature_group_2334679463f387450d279daa84bf2329,
+                    "2" : feature_group_124413c5541af53fc49ab38e2046bbf5,
+                    "3" : feature_group_ed86b519b7762900a3b336d5fe61d9c4,
+                },
+            };
+            L.control.layers(
+                layer_control_6ddd2aeffe4d23de4b778ff81692bbe7.base_layers,
+                layer_control_6ddd2aeffe4d23de4b778ff81692bbe7.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_c6aa64fc73450ce5ff9d1d534e468087);
+        
+</script>
+</html>
